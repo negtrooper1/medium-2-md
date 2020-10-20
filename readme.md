@@ -2,12 +2,18 @@
 
 This is a fork of the brilliant work of medium-2-md, but re-purposed for a specific project concerned with rebuilding the Medium Stories page for a user. Credit goes to the original author. I've left the instructions from that repo below with the addition of the flag I added for partnered posts. Thanks! I will come back to this and clean it up later when the main project is complete.
 
+Original repo: `https://github.com/gautamdhameja/medium-2-md`
+
+Easy repo: `https://github.com/negtrooper1/medium-stories-example`
+
 Original ReadMe:
 
 A CLI tool which converts medium posts (html) into Jekyll/Hugo compatible markdown files. Also downloads images and adds yaml front matter to the converted markdown files.
 It works with exported Medium posts (local html files) and converts all exported posts to markdown using a single command. It could be useful in scenarios when you want to migrate your blog away from Medium to Jekyll or Hugo (or something similar, which supports markdown content).
 
 ## Steps to use
+
+Note these steps are for the original repo. To use this one, grab this repo instead, npm install it, and use that. Will update instructions later.
 
 ### Convert local Medium exports
 
@@ -35,6 +41,7 @@ The `convertLocal` command supports the following optional flags,
 1. `-d` or `--drafts`: Convert the drafts too.
 1. `-f` or `--frontMatter`: Add the front matter on top of the markdown file.
 1. `-i` or `--images`: Download images to a local `img` sub-directory.
+1. `-p` or `--partner`: Check for partnered files by cross-referencing with the partner-program/posts-0001 file. Note this has limited functionality as of now. If there is more than one posts file in the partner folder, it will fail currently.
 
 #### Example: Convert from local - drafts enabled
 
