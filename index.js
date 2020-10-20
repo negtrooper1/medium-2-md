@@ -5,6 +5,8 @@ const program = require('commander');
 const workflow = require('./lib/workflow');
 const packageJson = require('./package.json');
 
+console.log("Starting Medium export...");
+
 program
     .version(packageJson.version)
     .command('convertLocal [inputDirectory]')
@@ -12,6 +14,7 @@ program
     .option('-d, --drafts', 'Convert drafts too.')
     .option('-f, --frontMatter', 'Add front-matter.')
     .option('-i, --images', 'Download images in local directory.')
+    .option('-p, --partner', 'Mark partnered posts')
     .action(workflow.processAll);
 
 // Convert from url has been removed.

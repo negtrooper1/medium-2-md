@@ -1,4 +1,8 @@
-# medium-2-md
+# medium-2-md-2-easy
+
+This is a fork of the brilliant work of medium-2-md, but re-purposed for a specific project concerned with rebuilding the Medium Stories page for a user. Credit goes to the original author. I've left the instructions from that repo below with the addition of the flag I added for partnered posts. Thanks! I will come back to this and clean it up later when the main project is complete.
+
+Original ReadMe:
 
 A CLI tool which converts medium posts (html) into Jekyll/Hugo compatible markdown files. Also downloads images and adds yaml front matter to the converted markdown files.
 It works with exported Medium posts (local html files) and converts all exported posts to markdown using a single command. It could be useful in scenarios when you want to migrate your blog away from Medium to Jekyll or Hugo (or something similar, which supports markdown content).
