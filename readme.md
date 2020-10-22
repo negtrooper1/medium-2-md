@@ -2,6 +2,11 @@
 
 This is a fork of the brilliant work of medium-2-md, but re-purposed for a specific project concerned with rebuilding the Medium Stories page for a user. Credit goes to the original author. I've left the instructions from that repo below with the addition of the flag I added for partnered posts. Thanks! I will come back to this and clean it up later when the main project is complete.
 
+TODO:
+
+-Come up with a clever way to get publications
+-Find a better way to distinguish between comments and unpartnered published stories so that unpartnered published stories can have publications (currently they're all set to no publication by default)
+
 Original repo: `https://github.com/gautamdhameja/medium-2-md`
 
 Easy repo: `https://github.com/negtrooper1/medium-stories-example`
